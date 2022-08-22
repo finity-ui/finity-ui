@@ -51,6 +51,6 @@ yarn add finity-ui
 ## Figma
 
 This library is based on Finity design system for Web3 by Polygon.
-If you need the Figma files for the components you can check out `Polygon.tech` and `Cope.Studio` for more information:
+Check out `Polygon.tech` and `Cope.Studio` for more information:
 
 🎨 [Get the Figma design files](https://finity.polygon.technology/)
