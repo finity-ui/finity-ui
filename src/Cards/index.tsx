@@ -7,24 +7,24 @@ export interface Props {
 export interface ICardDetail {
   heading: string;
   subHeading?: string;
-  featuredImageUrl: string;
+  featuredImage: string;
   description: string;
-  profileUrl?: string;
+  profileImage?: string;
 }
 
 export const Cards: FC<Props> = ({ card }) => {
   const {
     heading,
-    featuredImageUrl,
+    featuredImage,
     subHeading,
-    profileUrl,
+    profileImage,
     description,
   } = card;
   return (
     <section>
       <div className="inline-flex flex-col items-center justify-center rounded-md border border-solid border-[rgba(202,205,213,1)] bg-white py-2">
         <img
-          src={featuredImageUrl}
+          src={featuredImage}
           alt={heading}
           className="h-[255.05px] w-[407px] rounded-md"
         />
@@ -36,7 +36,7 @@ export const Cards: FC<Props> = ({ card }) => {
                 <div className="flex items-center justify-center gap-2.5 p-2">
                   <div className="relative h-9 w-9">
                     <img
-                      src={profileUrl}
+                      src={profileImage}
                       className="absolute left-[0] right-[0] top-[0] bottom-[0] rounded-[100px] bg-cover"
                     />
                   </div>

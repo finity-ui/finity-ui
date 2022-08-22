@@ -9,7 +9,7 @@ interface ISpinnerClass {
   style: string;
 }
 
-export const Spinner: FC<Props> = ({ size = 'md', ...props }): JSX.Element => {
+export const Spinner: FC<Props> = ({ size = 'xl', ...props }): JSX.Element => {
   const styling: ISpinnerClass | undefined = spinnerClasses.find(classes => {
     return classes.size === size;
   });
