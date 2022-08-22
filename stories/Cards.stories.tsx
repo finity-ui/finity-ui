@@ -2,8 +2,8 @@ import React from 'react';
 import { Meta, Story } from '@storybook/react';
 import { Cards, Props } from '../src/Cards/index';
 
-const featureImage = require('../public/image39.png');
-const profileImage = require('../public/profile.png');
+const featureImage = require('../.storybook/images/image39.png');
+const profileImage = require('../.storybook/images/profile.png');
 const meta: Meta = {
   title: 'Cards',
   component: Cards,
