@@ -42,6 +42,12 @@ Make sure that you have <a href="https://nodejs.org/en/" rel="nofollow" >Node.js
 npm i finity-ui
 ```
 
+OR
+
+```bash
+yarn add finity-ui
+```
+
 ## Figma
 
 This library is based on Finity design system for Web3 by Polygon.
