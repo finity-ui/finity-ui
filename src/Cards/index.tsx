@@ -7,9 +7,9 @@ export interface Props {
 export interface ICardDetail {
   heading: string;
   subHeading?: string;
-  featuredImage: string;
+  featuredImage: string | undefined;
   description: string;
-  profileImage?: string;
+  profileImage: string | undefined;
 }
 
 export const Cards: FC<Props> = ({ card }) => {
