@@ -19,7 +19,7 @@ Default.args = {
   card: {
     heading: 'Verify Ethereum account',
     subHeading:
-      'Sign the message that’s just appearedjust appeared and we’ll connect you. Tis shows us you have access to this account. If you can’t see a message, open your Metamask extension.',
+      'Sign the message that’s just appeared and we’ll connect you. This shows us you have access to this account. If you can’t see a message, open your Metamask extension.',
     message: 'Waiting for you to sign...',
     subMessage: 'This won’t cost you any Ether',
   },
