@@ -23,7 +23,7 @@ const theme = create({
   inputBorderRadius: 0,
 
   brandTitle: 'FinityUI',
-  brandUrl: 'http://localhost:6006/',
+  brandUrl: 'https://finity-ui.netlify.app/',
   brandImage: Logo,
 });
 

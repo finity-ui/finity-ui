@@ -7,7 +7,7 @@
 <a href="https://www.npmjs.com/package/finity-ui">
         <img src="https://img.shields.io/npm/v/finity-ui?colorA=cc3534&colorB=21262d&style=flat" alt="Version">
     </a>
-    <a href="https://deepsource.io/gh/manazpr/my-portfolio">
+    <a href="https://deepsource.io/gh/manazpr/finity-ui">
         <img src="https://deepsource.io/gh/manazpr/finity-ui.svg/?label=active+issues&show_trend=true" alt="GitHub actions">
     </a>
     <a href="https://gitpod.io/#https://github.com/manazpr/finity-ui">
@@ -19,7 +19,7 @@
 </div>
 <div align="center">
     <br>
-    <a href="https://#"><b>finityui.netlify.app »</b></a>
+    <a href="https://finity-ui.netlify.app/"><b>finity-ui.netlify.app »</b></a>
     <br><br>
     <a href="https://github.com/manazpr/finity-ui/issues/new"><b>Issues</b></a>
 </div>
