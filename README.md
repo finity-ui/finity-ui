@@ -1,6 +1,25 @@
-# Finity UI
-
-- A web3 component library for Tailwind CSS based on Finity Design System💜
+<div align="center">
+    <h1>Finity UI</h1>
+    <strong> Web3 component library for Tailwind CSS based on Finity Design System💜</strong>
+</div>
+<br>
+<div align="center">
+    <a href="https://deepsource.io/gh/manazpr/my-portfolio">
+        <img src="https://deepsource.io/gh/manazpr/finity-ui.svg/?label=active+issues&show_trend=true" alt="GitHub actions">
+    </a>
+    <a href="https://gitpod.io/#https://github.com/manazpr/finity-ui">
+        <img src="https://img.shields.io/badge/setup-automated-blue?logo=gitpod" alt="Gitpod">
+    </a>
+    <a href="https://twitter.com/manazpr">
+        <img src="https://img.shields.io/twitter/follow/manazpr?style=social" alt="Manaz PR Twitter">
+    </a>
+</div>
+<div align="center">
+    <br>
+    <a href="https://manaz.vercel.app"><b>finityui.netlify.app »</b></a>
+    <br><br>
+    <a href="https://github.com/manazpr/finity-ui/issues/new"><b>Issues</b></a>
+</div>
 
 ## Commands
 
