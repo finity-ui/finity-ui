@@ -5,7 +5,7 @@
 <br>
 <div align="center">
 <a href="https://www.npmjs.com/package/finity-ui">
-        <img src="https://img.shields.io/npm/v/finity-ui?colorA=cc3534&colorB=21262d&style=flat" alt="Version">
+        <img alt="npm" src="https://img.shields.io/npm/v/finity-ui">
     </a>
     <a href="https://deepsource.io/gh/manazpr/finity-ui">
         <img src="https://deepsource.io/gh/manazpr/finity-ui.svg/?label=active+issues&show_trend=true" alt="GitHub actions">
