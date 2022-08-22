@@ -5,7 +5,11 @@ export interface Props extends HTMLAttributes<HTMLButtonElement> {
   variant: 'primary' | 'secondary' | 'tertiary';
 }
 
-export const Button = ({ children, variant = 'primary', ...props }: Props) => {
+export const ConnectWalletButton = ({
+  children,
+  variant = 'primary',
+  ...props
+}: Props) => {
   return (
     <button {...props}>
       {variant === 'primary' && (

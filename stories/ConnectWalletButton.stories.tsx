@@ -1,11 +1,11 @@
 import React from 'react';
 import { Meta, Story } from '@storybook/react';
-import { Button, Props } from '../src/Button/index';
+import { ConnectWalletButton, Props } from '../src/ConnectWalletButton/index';
 import { action } from '@storybook/addon-actions';
 
 const meta: Meta = {
-  title: 'Button',
-  component: Button,
+  title: 'Connect Wallet Button',
+  component: ConnectWalletButton,
   argTypes: {
     children: {
       defaultValue: 'Connect to Wallet',
@@ -16,7 +16,7 @@ const meta: Meta = {
 
 export default meta;
 
-const Template: Story<Props> = args => <Button {...args} />;
+const Template: Story<Props> = args => <ConnectWalletButton {...args} />;
 
 export const Primary = Template.bind({});
 export const Secondary = Template.bind({});
