@@ -19,7 +19,7 @@
 </div>
 <div align="center">
     <br>
-    <a href="https://manaz.vercel.app"><b>finityui.netlify.app »</b></a>
+    <a href="https://#"><b>finityui.netlify.app »</b></a>
     <br><br>
     <a href="https://github.com/manazpr/finity-ui/issues/new"><b>Issues</b></a>
 </div>
