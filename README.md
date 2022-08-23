@@ -17,7 +17,7 @@
         <img src="https://img.shields.io/badge/setup-automated-blue?logo=gitpod" alt="Gitpod">
     </a>
     <a href="https://twitter.com/manazpr">
-        <img src="https://img.shields.io/twitter/follow/manazpr?style=flat" alt="Manaz PR Twitter">
+        <img src="https://img.shields.io/twitter/follow/manazpr?style=social" alt="Manaz PR Twitter">
     </a>
 </div>
 <div align="center">
