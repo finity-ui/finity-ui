@@ -1,11 +1,11 @@
 import React from 'react';
 import * as ReactDOM from 'react-dom';
-import { Secondary as Button } from '../stories/Button.stories';
+import { Spinner } from '../src/Spinner';
 
 describe('Button', () => {
   it('renders without crashing', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<Button />, div);
+    ReactDOM.render(<Spinner />, div);
     ReactDOM.unmountComponentAtNode(div);
   });
 });
