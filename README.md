@@ -8,7 +8,7 @@
         <img alt="npm" src="https://img.shields.io/npm/v/finity-ui">
     </a>
     <a href="https://github.com/manazpr/finity-ui/actions">
-        <img src=" https://img.shields.io/github/workflow/status/manazpr/finity-ui/CI"  alt="build status">
+        <img src="https://img.shields.io/github/workflow/status/manazpr/finity-ui/CI"  alt="build status">
     </a>
     <a href="https://deepsource.io/gh/manazpr/finity-ui">
         <img src="https://deepsource.io/gh/manazpr/finity-ui.svg/?label=active+issues&show_trend=true" alt="GitHub actions">
