@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { Spinner } from 'finity-ui';
+import Spinner from 'finity-ui';
 const App = () => {
   return (
     <>
