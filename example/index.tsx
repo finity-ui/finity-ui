@@ -1,10 +1,9 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import Spinner from 'finity-ui';
 const App = () => {
   return (
     <>
-      <Spinner size="xl" />
+      <h1>HEllo</h1>
     </>
   );
 };
