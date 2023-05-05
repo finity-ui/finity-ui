@@ -1,19 +1,19 @@
 <div align="center">
     <h1>Finity UI</h1>
-    <strong> Web3 component library for Tailwind CSS based on Finity Design System💜</strong>
+    <strong>Open-source Web3 component library for Tailwind CSS based on Finity Design System 💜</strong>
 </div>
 <br>
 <div align="center">
 <a href="https://www.npmjs.com/package/finity-ui">
         <img alt="npm" src="https://img.shields.io/npm/v/finity-ui">
     </a>
-    <a href="https://github.com/manazpr/finity-ui/actions">
-        <img src="https://img.shields.io/github/workflow/status/manazpr/finity-ui/CI"  alt="build status">
+    <a href="https://github.com/finity-ui/finity-ui/actions">
+        <img src="https://img.shields.io/github/actions/workflow/status/finity-ui/finity-ui/main.yml"  alt="build status">
     </a>
-    <a href="https://deepsource.io/gh/manazpr/finity-ui">
-        <img src="https://deepsource.io/gh/manazpr/finity-ui.svg/?label=active+issues&show_trend=true" alt="GitHub actions">
+    <a href="https://deepsource.io/gh/finity-ui/finity-ui">
+        <img src="https://deepsource.io/gh/finity-ui/finity-ui.svg/?label=active+issues&show_trend=true" alt="GitHub actions">
     </a>
-    <a href="https://gitpod.io/#https://github.com/manazpr/finity-ui">
+    <a href="https://gitpod.io/#https://github.com/finity-ui/finity-ui">
         <img src="https://img.shields.io/badge/setup-automated-blue?logo=gitpod" alt="Gitpod">
     </a>
     <a href="https://twitter.com/manazpr">
@@ -22,14 +22,14 @@
 </div>
 <div align="center">
     <br>
-    <a href="https://finity-ui.netlify.app/"><b>finity-ui.netlify.app »</b></a>
+    <a href="https://finityui.com/"><b>finityui.com »</b></a>
     <br><br>
-    <a href="https://github.com/manazpr/finity-ui/issues/new"><b>Issues</b></a>
+    <a href="https://github.com/finity-ui/finity-ui/issues/new"><b>Issues</b></a>
 </div>
 
 ## Documentation
 
-Documentation for `finity-ui` is not yet finished.
+WIP
 
 ## Getting started
 
@@ -50,6 +50,10 @@ OR
 ```bash
 yarn add finity-ui
 ```
+
+## 💕 Contributors
+
+We love contributors! Feel free to contribute to this project but please read the [Contributing Guidelines](CONTRIBUTING.md) before opening an issue or PR so you understand the branching strategy and local development environment.
 
 ## Figma
 
