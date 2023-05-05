@@ -47,9 +47,9 @@ module.exports = plugin(
           '--tw-ring-offset-width': '0px',
           '--tw-ring-offset-color': '#fff',
           '--tw-ring-color': theme('colors.blue.600', colors.blue[600]),
-          '--tw-ring-offset-shadow': `var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color)`,
-          '--tw-ring-shadow': `var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color)`,
-          'box-shadow': `var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow)`,
+          '--tw-ring-offset-shadow': "var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color)",
+          '--tw-ring-shadow': "var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color)",
+          'box-shadow': "var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow)",
           'border-color': theme('colors.blue.600', colors.blue[600]),
         },
       },
@@ -71,10 +71,10 @@ module.exports = plugin(
           )}" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 8l4 4 4-4"/></svg>`
         )}")`,
         'background-position': `right ${spacing[2]} center`,
-        'background-repeat': `no-repeat`,
-        'background-size': `1.5em 1.5em`,
+        'background-repeat': "no-repeat",
+        'background-size': "1.5em 1.5em",
         'padding-right': spacing[10],
-        'print-color-adjust': `exact`,
+        'print-color-adjust': "exact",
       },
       ['[multiple]']: {
         'background-image': 'initial',
@@ -84,7 +84,7 @@ module.exports = plugin(
         'padding-right': spacing[3],
         'print-color-adjust': 'unset',
       },
-      [[`[type='checkbox']`, `[type='radio']`]]: {
+      [["[type='checkbox']", "[type='radio']"]]: {
         appearance: 'none',
         padding: '0',
         'print-color-adjust': 'exact',
@@ -101,63 +101,63 @@ module.exports = plugin(
         'border-width': borderWidth['DEFAULT'],
         '--tw-shadow': '0 0 #0000',
       },
-      [`[type='checkbox']`]: {
+      ["[type='checkbox']"]: {
         'border-radius': borderRadius['none'],
       },
-      [`[type='radio']`]: {
+      ["[type='radio']"]: {
         'border-radius': '100%',
       },
-      [[`[type='checkbox']:focus`, `[type='radio']:focus`]]: {
+      [["[type='checkbox']:focus", "[type='radio']:focus"]]: {
         outline: '2px solid transparent',
         'outline-offset': '2px',
         '--tw-ring-inset': 'var(--tw-empty,/*!*/ /*!*/)',
         '--tw-ring-offset-width': '2px',
         '--tw-ring-offset-color': '#fff',
         '--tw-ring-color': theme('colors.blue.600', colors.blue[600]),
-        '--tw-ring-offset-shadow': `var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color)`,
-        '--tw-ring-shadow': `var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color)`,
-        'box-shadow': `var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow)`,
+        '--tw-ring-offset-shadow': "var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color)",
+        '--tw-ring-shadow': "var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color)",
+        'box-shadow': "var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow)",
       },
       [[
-        `[type='checkbox']:checked`,
-        `[type='radio']:checked`,
-        `.dark [type='checkbox']:checked`,
-        `.dark [type='radio']:checked`,
+        "[type='checkbox']:checked",
+        "[type='radio']:checked",
+        ".dark [type='checkbox']:checked",
+        ".dark [type='radio']:checked",
       ]]: {
-        'border-color': `transparent`,
-        'background-color': `currentColor`,
-        'background-size': `100% 100%`,
-        'background-position': `center`,
-        'background-repeat': `no-repeat`,
+        'border-color': "transparent",
+        'background-color': "currentColor",
+        'background-size': "100% 100%",
+        'background-position': "center",
+        'background-repeat': "no-repeat",
       },
-      [`[type='checkbox']:checked`]: {
+      ["[type='checkbox']:checked"]: {
         'background-image': `url("${svgToDataUri(
-          `<svg viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg"><path d="M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z"/></svg>`
+          '<svg viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg"><path d="M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z"/></svg>'
         )}")`,
       },
-      [`[type='radio']:checked`]: {
+      ["[type='radio']:checked"]: {
         'background-image': `url("${svgToDataUri(
-          `<svg viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="3"/></svg>`
+          '<svg viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="3"/></svg>'
         )}")`,
       },
-      [`[type='checkbox']:indeterminate`]: {
+      ["[type='checkbox']:indeterminate"]: {
         'background-image': `url("${svgToDataUri(
-          `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h8"/></svg>`
+          '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h8"/></svg>'
         )}")`,
-        'border-color': `transparent`,
-        'background-color': `currentColor`,
-        'background-size': `100% 100%`,
-        'background-position': `center`,
-        'background-repeat': `no-repeat`,
+        'border-color': "transparent",
+        'background-color': "currentColor",
+        'background-size': "100% 100%",
+        'background-position': "center",
+        'background-repeat': "no-repeat",
       },
       [[
-        `[type='checkbox']:indeterminate:hover`,
-        `[type='checkbox']:indeterminate:focus`,
+        "[type='checkbox']:indeterminate:hover",
+        "[type='checkbox']:indeterminate:focus",
       ]]: {
         'border-color': 'transparent',
         'background-color': 'currentColor',
       },
-      [`[type='file']`]: {
+      ["[type='file']"]: {
         background: 'unset',
         'border-color': 'inherit',
         'border-width': '0',
@@ -166,11 +166,11 @@ module.exports = plugin(
         'font-size': 'unset',
         'line-height': 'inherit',
       },
-      [`[type='file']:focus`]: {
-        outline: `1px solid ButtonText`,
-        outline: `1px auto inherit`,
+      ["[type='file']:focus"]: {
+        outline: "1px solid ButtonText",
+        outline: "1px auto inherit",
       },
-      [[`input[type=file]::file-selector-button`]]: {
+      [["input[type=file]::file-selector-button"]]: {
         color: 'white',
         background: theme('colors.gray.800', colors.gray[800]),
         border: 0,
@@ -187,14 +187,14 @@ module.exports = plugin(
           background: theme('colors.gray.700', colors.gray[700]),
         },
       },
-      [[`.dark input[type=file]::file-selector-button`]]: {
+      [[".dark input[type=file]::file-selector-button"]]: {
         color: 'white',
         background: theme('colors.gray.600', colors.gray[600]),
         '&:hover': {
           background: theme('colors.gray.500', colors.gray[500]),
         },
       },
-      [[`input[type="range"]::-webkit-slider-thumb`]]: {
+      [['input[type="range"]::-webkit-slider-thumb']]: {
         height: spacing[5],
         width: spacing[5],
         background: theme('colors.blue.600', colors.blue[600]),
@@ -205,13 +205,13 @@ module.exports = plugin(
         '-webkit-appearance': 'none',
         cursor: 'pointer',
       },
-      [[`input[type="range"]:disabled::-webkit-slider-thumb`]]: {
+      [['input[type="range"]:disabled::-webkit-slider-thumb']]: {
         background: theme('colors.gray.400', colors.gray[400]),
       },
-      [[`.dark input[type="range"]:disabled::-webkit-slider-thumb`]]: {
+      [['.dark input[type="range"]:disabled::-webkit-slider-thumb']]: {
         background: theme('colors.gray.500', colors.gray[500]),
       },
-      [[`input[type="range"]:focus::-webkit-slider-thumb`]]: {
+      [['input[type="range"]:focus::-webkit-slider-thumb']]: {
         outline: '2px solid transparent',
         'outline-offset': '2px',
         '--tw-ring-offset-shadow':
@@ -223,7 +223,7 @@ module.exports = plugin(
         '--tw-ring-opacity': 1,
         '--tw-ring-color': 'rgb(164 202 254 / var(--tw-ring-opacity))',
       },
-      [[`input[type="range"]::-moz-range-thumb`]]: {
+      [['input[type="range"]::-moz-range-thumb']]: {
         height: spacing[5],
         width: spacing[5],
         background: theme('colors.blue.600', colors.blue[600]),
@@ -234,31 +234,31 @@ module.exports = plugin(
         '-webkit-appearance': 'none',
         cursor: 'pointer',
       },
-      [[`input[type="range"]:disabled::-moz-range-thumb`]]: {
+      [['input[type="range"]:disabled::-moz-range-thumb']]: {
         background: theme('colors.gray.400', colors.gray[400]),
       },
-      [[`.dark input[type="range"]:disabled::-moz-range-thumb`]]: {
+      [['.dark input[type="range"]:disabled::-moz-range-thumb']]: {
         background: theme('colors.gray.500', colors.gray[500]),
       },
-      [[`input[type="range"]::-moz-range-progress`]]: {
+      [['input[type="range"]::-moz-range-progress']]: {
         background: theme('colors.blue.500', colors.blue[500]),
       },
-      [[`input[type="range"]::-ms-fill-lower`]]: {
+      [['input[type="range"]::-ms-fill-lower']]: {
         background: theme('colors.blue.500', colors.blue[500]),
       },
-      [[`input[type="range"].range-sm::-webkit-slider-thumb`]]: {
+      [['input[type="range"].range-sm::-webkit-slider-thumb']]: {
         height: spacing[4],
         width: spacing[4],
       },
-      [[`input[type="range"].range-lg::-webkit-slider-thumb`]]: {
+      [['input[type="range"].range-lg::-webkit-slider-thumb']]: {
         height: spacing[6],
         width: spacing[6],
       },
-      [[`input[type="range"].range-sm::-moz-range-thumb`]]: {
+      [['input[type="range"].range-sm::-moz-range-thumb']]: {
         height: spacing[4],
         width: spacing[4],
       },
-      [[`input[type="range"].range-lg::-moz-range-thumb`]]: {
+      [['input[type="range"].range-lg::-moz-range-thumb']]: {
         height: spacing[6],
         width: spacing[6],
       },
@@ -303,36 +303,36 @@ module.exports = plugin(
         visibility: 'visible',
         transform: 'rotate(45deg)',
       },
-      [`[data-tooltip-style^='light'] + .tooltip > .tooltip-arrow:before`]: {
+      ["[data-tooltip-style^='light'] + .tooltip > .tooltip-arrow:before"]: {
         'border-style': 'solid',
         'border-color': colors.gray[200],
       },
-      [`[data-tooltip-style^='light'] + .tooltip[data-popper-placement^='top'] > .tooltip-arrow:before`]: {
+      ["[data-tooltip-style^='light'] + .tooltip[data-popper-placement^='top'] > .tooltip-arrow:before"]: {
         'border-bottom-width': '1px',
         'border-right-width': '1px',
       },
-      [`[data-tooltip-style^='light'] + .tooltip[data-popper-placement^='right'] > .tooltip-arrow:before`]: {
+      ["[data-tooltip-style^='light'] + .tooltip[data-popper-placement^='right'] > .tooltip-arrow:before"]: {
         'border-bottom-width': '1px',
         'border-left-width': '1px',
       },
-      [`[data-tooltip-style^='light'] + .tooltip[data-popper-placement^='bottom'] > .tooltip-arrow:before`]: {
+      ["[data-tooltip-style^='light'] + .tooltip[data-popper-placement^='bottom'] > .tooltip-arrow:before"]: {
         'border-top-width': '1px',
         'border-left-width': '1px',
       },
-      [`[data-tooltip-style^='light'] + .tooltip[data-popper-placement^='left'] > .tooltip-arrow:before`]: {
+      ["[data-tooltip-style^='light'] + .tooltip[data-popper-placement^='left'] > .tooltip-arrow:before"]: {
         'border-top-width': '1px',
         'border-right-width': '1px',
       },
-      [`.tooltip[data-popper-placement^='top'] > .tooltip-arrow`]: {
+      [".tooltip[data-popper-placement^='top'] > .tooltip-arrow"]: {
         bottom: '-4px',
       },
-      [`.tooltip[data-popper-placement^='bottom'] > .tooltip-arrow`]: {
+      [".tooltip[data-popper-placement^='bottom'] > .tooltip-arrow"]: {
         top: '-4px',
       },
-      [`.tooltip[data-popper-placement^='left'] > .tooltip-arrow`]: {
+      [".tooltip[data-popper-placement^='left'] > .tooltip-arrow"]: {
         right: '-4px',
       },
-      [`.tooltip[data-popper-placement^='right'] > .tooltip-arrow`]: {
+      [".tooltip[data-popper-placement^='right'] > .tooltip-arrow"]: {
         left: '-4px',
       },
       ['.tooltip.invisible > .tooltip-arrow:before']: {
@@ -361,19 +361,19 @@ module.exports = plugin(
         height: '9px',
         background: 'inherit',
       },
-      [`[role="tooltip"] > [data-popper-arrow]:before`]: {
+      ['[role="tooltip"] > [data-popper-arrow]:before']: {
         'border-style': 'solid',
         'border-color': colors.gray[200],
       },
-      [`.dark [role="tooltip"] > [data-popper-arrow]:before`]: {
+      ['.dark [role="tooltip"] > [data-popper-arrow]:before']: {
         'border-style': 'solid',
         'border-color': colors.gray[600],
       },
-      [`[role="tooltip"] > [data-popper-arrow]:after`]: {
+      ['[role="tooltip"] > [data-popper-arrow]:after']: {
         'border-style': 'solid',
         'border-color': colors.gray[200],
       },
-      [`.dark [role="tooltip"] > [data-popper-arrow]:after`]: {
+      ['.dark [role="tooltip"] > [data-popper-arrow]:after']: {
         'border-style': 'solid',
         'border-color': colors.gray[600],
       },
