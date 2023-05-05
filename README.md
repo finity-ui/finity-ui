@@ -8,7 +8,7 @@
         <img alt="npm" src="https://img.shields.io/npm/v/finity-ui">
     </a>
     <a href="https://github.com/finity-ui/finity-ui/actions">
-        <img src="https://img.shields.io/github/workflow/status/finity-ui/finity-ui/CI"  alt="build status">
+        <img src="https://img.shields.io/github/actions/workflow/status/finity-ui/finity-ui/main.yml"  alt="build status">
     </a>
     <a href="https://deepsource.io/gh/finity-ui/finity-ui">
         <img src="https://deepsource.io/gh/finity-ui/finity-ui.svg/?label=active+issues&show_trend=true" alt="GitHub actions">
@@ -54,6 +54,7 @@ yarn add finity-ui
 ## 💕 Contributors
 
 We love contributors! Feel free to contribute to this project but please read the [Contributing Guidelines](CONTRIBUTING.md) before opening an issue or PR so you understand the branching strategy and local development environment.
+
 ## Figma
 
 This library is based on Finity design system for Web3 by Polygon.
